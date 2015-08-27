@@ -1,0 +1,27 @@
+
+<h1>Hope Springs Eternal</h1>
+
+
+
+<p> <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQD6MdF8t-JqXby4SVocGNVoJq0M2U47qn9K9VrflIQEwHca_CEfA">
+
+ <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSPKDeZvGvw4aeMpEqF9j8yI565URGCAg2cNuHVs7sEq0sVvWq1Bg">
+</p>
+
+<h1>New Post</h1>
+
+ <%= form_for :post, url: posts_path  do |f| %>
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+ 
+  <p>
+    <%= f.label :text %><br>
+    <%= f.text_area :text %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
