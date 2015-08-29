@@ -1,4 +1,4 @@
-A way to report information about your lost pet, in hopes others may teke notice and help to 
+A way to report information about your lost pet, in hopes others may take notice and help to 
 find your pet.
 
 
